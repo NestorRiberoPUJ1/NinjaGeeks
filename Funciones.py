@@ -1,26 +1,27 @@
+#suma   params: x->num  y->num
+def Suma(sumando1:int,sumando2:int):
+    resultado=sumando1+sumando2
+    return resultado 
+
 #resta      params: x->num  y->num
-def Resta(x,y):
-    resultado=x-y
+def Resta(minuendo:int,sustraendo:int):
+    resultado=minuendo-sustraendo
     return resultado
 
 #multiplicacion params: x->num  y->num
-def Multiplicacion(x,y):
-    resultado=x*y
+def Multiplicacion(factor1:int,factor2:int):
+    resultado=factor1*factor2
     return resultado
 
 #division   params: a->num  b->num
-def division(a,b):
-    resultado= a/b
+def division(dividendo:int,divisor:int):
+    resultado= dividendo/divisor
     return resultado 
 
-#suma   params: x->num  y->num
-def Suma(x,y):
-    resultado=x+y
-    return resultado
 
 #sumatoria  params: lista-> list[num]
-def sumatoria (lista):
+def sumatoria (lista:list):
     resultado=0
     for index in lista:
         resultado= resultado+index 
-    return resultado
+    return int(resultado)
