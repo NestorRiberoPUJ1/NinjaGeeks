@@ -9,3 +9,17 @@ def producto(a,b):
             res+= Funciones.Resta (res,a)
     return res 
 print (producto(5,4))
+
+#############################################
+
+operacion=input("Ingresa operacion ")
+
+for x in operacion:
+    if(x=="+"):
+        print("ES SUMA")
+    if(x=="-"):
+        print("ES RESTA")
+    if(x=="*"):
+        print("ES MULTIPLICACION")
+    if (x=="/"):
+        print("ES DIVISION")
