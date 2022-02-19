@@ -3,7 +3,7 @@ def Suma(sumando1:int,sumando2:int):
     resultado=sumando1+sumando2
     return resultado 
 
-#resta      params: minuendo->num  sustraendo->num
+#resta  params: minuendo->num  sustraendo->num
 def Resta(minuendo:int,sustraendo:int):
     resultado=minuendo-sustraendo
     return resultado
