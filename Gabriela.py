@@ -8,4 +8,4 @@ def producto(a,b):
         if (b<0):
             res = Funciones.Resta (res,a)
     return res
-print (producto(5,4))
+print (producto(resultado=(5,4)))
