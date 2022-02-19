@@ -8,4 +8,20 @@ def producto(a,b):
         if (b<0):
             res = Funciones.Resta (res,a)
     return res
-print (producto(resultado=(5,4)))
+print (producto(5,-4))
+
+###################
+
+operacion=input("ingrese operacion")
+
+for x in operacion:
+    if (x=="+"):
+        print ("Suma")
+    elif (x=="-"):
+        print("resta")
+    elif (x=="*"):
+        print("multiplicacion")
+    elif (x== "/"):
+        print ("division")
+    else :
+        print ("error")
