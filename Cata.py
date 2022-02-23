@@ -1,6 +1,3 @@
-from pickle import TRUE
-
-
 
 def calculadora (operacion):
     contador=0
