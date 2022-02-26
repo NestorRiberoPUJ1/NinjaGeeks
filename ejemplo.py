@@ -15,4 +15,3 @@ def nombreFuncion(operacion):
         index=index+1
 
 #################################
-
