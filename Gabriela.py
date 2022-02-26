@@ -20,8 +20,7 @@ for x in operacion:
     elif (x=="-"):
         print("resta")
     elif (x=="*"):
-        print("multiplicacion")
+        print("Multiplicacion")
     elif (x== "/"):
-        print ("division")
-    else :
-        print ("error")
+        print ("Division")
+
