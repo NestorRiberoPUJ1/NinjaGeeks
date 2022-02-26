@@ -1,7 +1,11 @@
 import Funciones
 from termcolor import colored, cprint
 
+
+cprint('Hello, World!', 'green')
 cprint('Hello, World!', 'red')
+cprint('Hello, World!', 'blue')
+
 
 operacion=input("Ingrese operacion ")
 
