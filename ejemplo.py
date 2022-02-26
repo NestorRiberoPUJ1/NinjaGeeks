@@ -2,12 +2,12 @@ import Funciones
 from termcolor import colored, cprint
 
 
-cprint('Hello, World!', 'green')
-cprint('Hello, World!', 'red')
+cprint('Hello, World!', 'blue')
+cprint('Hello, World!', 'blue',attrs=["bold","underline"])
 cprint('Hello, World!', 'blue')
 
 
-operacion=input("Ingrese operacion ")
+#operacion=input("Ingrese operacion ")
 
 def nombreFuncion(operacion):
     index=0
