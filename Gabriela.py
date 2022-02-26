@@ -1,3 +1,6 @@
+import numbers
+from pickle import FALSE
+from xmlrpc.client import FastParser
 import Funciones
 
 def producto(a,b):
@@ -8,19 +11,48 @@ def producto(a,b):
         if (b<0):
             res = Funciones.Resta (res,a)
     return res
-print (producto(5,-4))
+
 
 ###################
 
-operacion=input("ingrese operacion")
+operacion=input("ingrese operacion\t")
 
+flag= False
+num1=""
+num2=""
+operador= ""
 for x in operacion:
     if (x=="+"):
-        print ("Suma")
+        operador= "+"
+        flag=True
     elif (x=="-"):
-        print("resta")
+        operador ="-"
+        flag=True
     elif (x=="*"):
-        print("Multiplicacion")
+        operador ="*"
+        flag=True
     elif (x== "/"):
-        print ("Division")
+        operador = "/"
+        flag=True
+    else :
+        if (flag == False):
+            num1  = num1 + x  
+        elif (flag == True):
+            num2 = num2 + x
+print (num1)
+num1= float (num1)
+print (operador)
+print (num2)
+num2= float (num2)
+
+if (operador == "+"):
+    print ("="+ str (num1 +num2))
+elif (operador == "-"):
+    print ("=" + str  (num1-num2))
+elif (operador == "*"):
+    print ("=" + str  (num1*num2))
+elif (operador == "/"):
+    print ("=" + str  (num1/num2))
+
+
 
