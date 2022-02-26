@@ -31,4 +31,5 @@ def Promedio (lista:list):
     promedio=0
     longitud=len(lista)
     promedio=Sumatoria(lista)/longitud
-    return promedio 
+    return promedio     
+    
