@@ -1,6 +1,7 @@
-from cgi import print_directory
 import Funciones
+from termcolor import colored, cprint
 
+cprint('Hello, World!', 'red')
 
 operacion=input("Ingrese operacion ")
 
