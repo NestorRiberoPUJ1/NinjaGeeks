@@ -1,5 +1,5 @@
 import Funciones
-from termcolor import colored, cprint
+from termcolor import cprint
 
 
 cprint('Hello, World!', 'blue')
