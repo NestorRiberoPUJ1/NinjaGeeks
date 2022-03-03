@@ -1,4 +1,4 @@
-
+from termcolor import cprint
 def calculadora (operacion):
     contador=0
     operador=""
@@ -34,7 +34,7 @@ def calculadora (operacion):
     elif (operador=="division"):
         resultado=float(num1)/float(num2)
 
-    print ("[INFO]\t"+str(operador))
+    cprint ("[INFO]\t"+str(operador),"red")
     print ("[NUM1]\t"+str(num1))
     print ("[NUM2]\t"+str(num2))
     print ("[RESULTADO]\t"+str(resultado))
