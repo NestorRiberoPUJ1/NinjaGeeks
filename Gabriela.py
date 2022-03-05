@@ -1,6 +1,5 @@
-import numbers
-from pickle import FALSE
-from xmlrpc.client import FastParser
+
+
 import Funciones
 
 def producto(a,b):
