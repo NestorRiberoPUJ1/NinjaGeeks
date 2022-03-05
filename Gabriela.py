@@ -1,5 +1,5 @@
 
-
+from termcolor import colored, cprint
 import Funciones
 
 def producto(a,b):
@@ -38,20 +38,23 @@ for x in operacion:
             num1  = num1 + x  
         elif (flag == True):
             num2 = num2 + x
-print (num1)
+cprint (num1,"magenta")
 num1= float (num1)
-print (operador)
-print (num2)
+cprint (operador,"red", attrs=["bold"])
+cprint (num2, "magenta")
 num2= float (num2)
 
 if (operador == "+"):
-    print ("="+ str (num1 +num2))
+    cprint ("="+ str (num1 +num2), "red")
 elif (operador == "-"):
-    print ("=" + str  (num1-num2))
+    cprint ("=" + str  (num1-num2), "red")
 elif (operador == "*"):
-    print ("=" + str  (num1*num2))
+    cprint ("=" + str  (num1*num2), "red")
 elif (operador == "/"):
-    print ("=" + str  (num1/num2))
+    cprint ("=" + str  (num1/num2), "red")
+
+cprint ( "termine", "magenta", attrs=["bold"] )
+    
 
 
 
