@@ -37,20 +37,26 @@ for x in operacion:
             num1 = num1 + x
         elif (flag == True):
             num2 = num2 + x
-print (num1)
+
+import sys
+from termcolor import colored, cprint
+
+
+
+cprint (num1,"red")
 num1= float (num1)
-print (operador)
-print (num2)
+cprint (operador,"white")
+cprint (num2,"red")
 num2= float (num2)
 
 if (operador == "+"):
-    print("="+ str(num1+num2))
+    cprint("="+ str(num1+num2),"white","on_magenta")
 elif(operador == "-"):
-    print("="+str(num1-num2))
+    cprint("="+str(num1-num2),"white","on_blue")
 elif(operador == "*"):
-    print("="+str(num1*num2))
+    cprint("="+str(num1*num2),"white","on_yellow")
 elif(operador == "/"):
-    print("/"+str(num1/num2))
+    cprint("/"+str(num1/num2),"white","on_red")
     
 
 
