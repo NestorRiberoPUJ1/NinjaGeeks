@@ -1,4 +1,3 @@
-
 from operator import truediv
 from sys import flags
 
@@ -24,7 +23,7 @@ for x in operacion:
         operador="+"
         flag=True
     elif (x=="-"):
-        print("-")
+        operador ="-"
         flag=True
     elif (x=="*"):
         operador= "*"
@@ -37,6 +36,8 @@ for x in operacion:
             num1 = num1 + x
         elif (flag == True):
             num2 = num2 + x
+import sys
+from termcolor import colored, cprint
 print (num1)
 num1= float (num1)
 print (operador)
@@ -44,12 +45,12 @@ print (num2)
 num2= float (num2)
 
 if (operador == "+"):
-    print ("-" + str (num1 + num2))
+    cprint ("-" + str (num1 + num2),"blue")
 elif (operador == "-"):
-    print ("=" + str (num1 - num2))
+    cprint ("=" + str (num1 - num2),"red")
 elif (operador == "*"):
-    print ("-" + str (num1 * num2))
+    cprint ("-" + str (num1 * num2),"magenta")
 elif (operador == "/"):
-    print ("=" + str (num1 / num2))
+    cprint ("=" + str (num1 / num2),"grey")
 
 
