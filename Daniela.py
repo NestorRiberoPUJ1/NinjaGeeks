@@ -36,17 +36,17 @@ for x in operacion:
            Num1 = Num1 + X
         elif (flag == True):
            Num2 = Num2 + X
-print (Num1)
+print (Num1,"on_red")
 Num1= float (Num1)
 print (operador)
-print (Num2)
+print (Num2,"on_green")
 Num2= float (Num2)
 
 if (operador == "+"):
-    print ("="+ str (Num1 +Num2))
+    print ("="+ str (Num1 +Num2, "on_grey"))
 elif (operador == "-"):
-    print ("=" + str  (Num1-Num2))
+    print ("=" + str  (Num1-Num2, "on_blue"))
 elif (operador == "*"):
-    print ("=" + str  (Num1*Num2))
+    print ("=" + str  (Num1*Num2, "on_cyan"))
 elif (operador == "/"):
-    print ("=" + str  (Num1/Num2))
+    print ("=" + str  (Num1/Num2, "on_ white"))
