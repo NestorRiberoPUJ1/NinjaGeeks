@@ -50,7 +50,7 @@ cprint (num2,"red")
 num2= float (num2)
 
 if (operador == "+"):
-    cprint("="+ str(num1+num2),"white","on_magenta")
+    cprint("="+ str(num1+num2),"white")
 elif(operador == "-"):
     cprint("="+str(num1-num2),"white","on_blue")
 elif(operador == "*"):
