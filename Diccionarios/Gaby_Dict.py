@@ -9,7 +9,7 @@ Gaby= {
     "color favorito": "beige y negro",
     "materia favorita": "quimica",
     "peor materia": "sociales",
-    "cumpleaños": 12/8,
+    "cumpleaños": 12-8,
     "color menos favorito": "azul oscuro o neon",
     "comida favorita": "pasta carbonara",
     "fruta favorita":"maracuya",
