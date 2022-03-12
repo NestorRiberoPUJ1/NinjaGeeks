@@ -1,13 +1,13 @@
 ##clase
 class auto:
     def __init__(self):
-        self.marca="toyota"
-        self.modelo="prado"
-        self.año="2020"
-        self.color="rojo"
-        self.sunrorf="true"
-        self.pais="japon"
-        self.puestos="5"
+        self.marca=""
+        self.modelo=""
+        self.año=""
+        self.color=""
+        self.sunrorf=""
+        self.pais=""
+        self.puestos=""
 
 LauMovil=auto()
 print(LauMovil)
